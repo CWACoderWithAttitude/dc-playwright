@@ -23,7 +23,8 @@
         "PKief.material-icon-theme",
         "ms-azuretools.vscode-docker",
         "adpyke.codesnap",
-        "ms-playwright.playwright"
+        "ms-playwright.playwright",
+        "ritwickdey.LiveServer"
       ]
     }
   },
