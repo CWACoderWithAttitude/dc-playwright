@@ -1,6 +1,8 @@
 {
-  "name": "nodejs-dev",
-  "dockerComposeFile": ["docker-compose.yml"],
+  "name": "dc-playwright",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
   "customizations": {
     // Configure properties specific to VS Code.
     "vscode": {
@@ -17,14 +19,15 @@
         "wesbos.theme-cobalt2",
         "vscjava.vscode-maven",
         "EditorConfig.EditorConfig",
-        "dzhavat.git-cheatsheet", // always nice to have this
+        "dzhavat.git-cheatsheet",
         "PKief.material-icon-theme",
         "ms-azuretools.vscode-docker",
-        "adpyke.codesnap" // share beautiful code snipptes with your colleagues / for your documentation
+        "adpyke.codesnap",
+        "ms-playwright.playwright"
       ]
     }
   },
-  "service": "nodejs-dev",
+  "service": "dc-playwright",
   "workspaceFolder": "/src",
   "remoteUser": "root",
   //"postStartCommand": "groovy printDevContainer.groovy ",

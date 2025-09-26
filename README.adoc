@@ -1,0 +1,10 @@
+= Playwright Dev-Container
+Running Playwright Tests in a Box
+
+== Howto
+1. install playwright-extension: shift+cmd+P: Test: Install Playwright
+
+== Links
+* https://hub.docker.com/r/microsoft/playwright[Playwright]
+* https://playwright.dev/docs/writing-tests[Writing tests]
+* https://playwright.dev/docs/test-reporters[Avaliable Test-Reporters]
